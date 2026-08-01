@@ -1,0 +1,40 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/pontem + https://github.com/pontem-network
+packages:
+- language: typescript
+  registry: npm
+  name: "@pontem/liquidswap-sdk"
+  url: https://www.npmjs.com/package/@pontem/liquidswap-sdk
+  install: npm install @pontem/liquidswap-sdk
+  repository: https://github.com/pontem-network/liquidswap-sdk
+  latest: 0.7.3
+  description: TypeScript SDK to work with Liquidswap AMM contracts on Aptos.
+  official: true
+- language: typescript
+  registry: npm
+  name: "@pontem/wallet-adapter-plugin"
+  url: https://www.npmjs.com/package/@pontem/wallet-adapter-plugin
+  install: npm install @pontem/wallet-adapter-plugin
+  repository: https://github.com/pontem-network/plugin-wallet-adapter
+  latest: 0.2.1
+  description: Pontem plugin to use with the Aptos Wallet Adapter.
+  official: true
+- language: typescript
+  registry: npm
+  name: "@pontem/aptos-wallet-adapter"
+  url: https://www.npmjs.com/package/@pontem/aptos-wallet-adapter
+  install: npm install @pontem/aptos-wallet-adapter
+  repository: https://github.com/pontem-network/wallet-adapter
+  latest: 0.10.1
+  description: Aptos wallet adapter with Vue and React support.
+  official: true
+- language: typescript
+  registry: npm
+  name: "@pontem/liquidswap-widget"
+  url: https://www.npmjs.com/package/@pontem/liquidswap-widget
+  install: npm install @pontem/liquidswap-widget
+  repository: https://github.com/pontem-network/liquidswap-widget
+  latest: 0.5.7
+  description: Liquidswap swap UI as an embeddable custom web component.
+  official: true

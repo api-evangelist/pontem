@@ -1,8 +1,18 @@
 aid: pontem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pontem.png
 name: Pontem
-description: 'Pontem is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Pontem is a Web3 product development studio building with the Move language on Aptos and other Layer 1 blockchains, in partnership with Aptos Labs. Its product portfolio spans the Pontem Wallet (a browser-extension and mobile crypto wallet for APT, MOVE, ETH, SOL and more), the Liquidswap decentralized exchange and AMM, the Lumio L2 VM-abstraction framework, and a Move developer tooling suite that includes the Move Code Playground, the IntelliJ Move IDE plugin, the ByteBabel Solidity-to-Move bytecode translator, and the Dove Move package manager. Pontem publishes first-party TypeScript SDKs, an embeddable Liquidswap web-component widget, wallet adapters, and CLIs. Backed by Pantera Capital, Animoca Brands, and Aptos Labs.'
 url: https://raw.githubusercontent.com/api-evangelist/pontem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +22,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Web3
+- Wallet
+- Decentralized Exchange
+- Move Language
+- Aptos
+- Developer Tooling
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +42,30 @@ maintainers:
 common:
 - type: Website
   url: https://pontem.network/
+- type: DeveloperPortal
+  url: https://docs.pontem.network/
+- type: Documentation
+  url: https://docs.pontem.network/
+- type: APIReference
+  url: https://docs.pontem.network/01.-wallet/api.md
+- type: GettingStarted
+  url: https://docs.pontem.network/01.-wallet/getting_started.md
+- type: GitHubOrganization
+  url: https://github.com/pontem-network
+- type: LLMsTxt
+  url: llms/pontem-llms.txt
+- type: Packages
+  url: packages/pontem-packages.yml
+- type: SDKs
+  url: packages/pontem-packages.yml
+- type: Components
+  url: components/pontem-components.yml
+- type: CLI
+  url: cli/pontem-cli.yml
+- type: DomainSecurity
+  url: security/pontem-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

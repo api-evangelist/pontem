@@ -1,0 +1,14 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/pontem-network/liquidswap-widget
+components:
+- family: Liquidswap Widget
+  kind: web-component
+  name: liquidswap-widget
+  description: Embeddable Liquidswap swap interface shipped as a custom web component (custom element) that dapps and websites can drop in to offer token swaps against the Liquidswap AMM on Aptos.
+  loader:
+    package: "@pontem/liquidswap-widget"
+    registry: npm
+    install: npm install @pontem/liquidswap-widget
+  repository: https://github.com/pontem-network/liquidswap-widget
+  official: true

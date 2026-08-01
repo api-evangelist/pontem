@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/pontem-network
+clis:
+- name: dove
+  description: Diem/Pontem Move package manager and build tool for compiling, testing, and managing Move language packages.
+  language: rust
+  repository: https://github.com/pontem-network/dove
+  install:
+  - method: script
+    command: curl https://raw.githubusercontent.com/pontem-network/get-dove/master/get-dove.sh -sSf | sh
+  official: true
+- name: lumio
+  description: CLI for the Lumio L2 VM-abstraction network.
+  language: rust
+  repository: https://github.com/pontem-network/lumio-cli
+  install:
+  - method: homebrew
+    command: brew install pontem-network/lumio/lumio
+  official: true
